@@ -1,0 +1,43 @@
+.card {
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card .card-body {
+  padding: 0;
+  margin-top: 17px;
+}
+.card .price {
+  text-align: right;
+  color: red;
+  font-size: 20px;
+  padding-right: 20px;
+  margin-bottom: 0;
+}
+
+.card p.truncate {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    max-width: 200px;
+    max-height: 5rem;
+}
+
+.card h5.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    height: 3rem;
+  }
+
+.card .prod-quantity {
+  align-items: center;
+  font-size: 25px;
+}
